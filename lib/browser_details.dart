@@ -1,10 +1,9 @@
 import 'dart:io';
 
-import 'package:browser_details/entities/browser.dart';
-import 'package:browser_details/exceptions/base_exception.dart';
-import 'package:browser_details/exceptions/plataform_not_impemented_exception.dart';
-
 import 'browser_details_platform_interface.dart';
+import 'entities/browser.dart';
+import 'exceptions/base_exception.dart';
+import 'exceptions/plataform_not_impemented_exception.dart';
 
 class BrowserDetails {
   Future<Browser> getBrowser() async {

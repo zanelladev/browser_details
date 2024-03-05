@@ -1,4 +1,14 @@
 include: package:flutter_lints/flutter.yaml
-
-# Additional information about this file can be found at
-# https://dart.dev/guides/language/analysis-options
+linter:
+  rules:
+    public_member_api_docs: false
+    avoid_relative_lib_imports: true
+    prefer_relative_imports: true
+    lines_longer_than_80_chars: false
+    prefer_const_declarations: true
+    prefer_const_constructors_in_immutables: true
+    always_declare_return_types: true
+    annotate_overrides: true
+    avoid_empty_else: true
+    cascade_invocations: false
+    no_default_cases: false
